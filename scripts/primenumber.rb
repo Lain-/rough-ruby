@@ -1,5 +1,5 @@
 puts 'Welcome to the Prime Number Calculator.'.center(50)
-puts 'Written in Ruby by Huynh Yen Loc'.center(50)
+puts 'Written in Ruby by Huynh Yen Loc.'.center(50)
 puts "Type 'EXIT' to exit the program.".center(50)
 puts
 
