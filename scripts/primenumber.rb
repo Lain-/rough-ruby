@@ -1,6 +1,6 @@
 puts 'Welcome to the Prime Number Calculator.'.center(50)
 puts 'Written in Ruby by Huynh Yen Loc.'.center(50)
-puts "Type 'EXIT' to exit the program.".center(50)
+puts "Type 'EXIT' to exit the script.".center(50)
 puts
 
 print "Enter a number: "            #If a very large prime number is entered (16 digits and more), it will take a really long time to run.
