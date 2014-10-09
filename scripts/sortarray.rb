@@ -9,7 +9,7 @@ while true
     input = gets.chomp()
     awesome_array << input
     if input == ''
-        puts awesome_array.sort
+        puts awesome_array.sort #the sort method sorts the array in alphabet order.
         break
     end
 end
