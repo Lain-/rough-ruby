@@ -1,7 +1,7 @@
 #Project Euler
 #Problem 7: 10001st prime.
 
-prime_array = [2, 3, 5, 7]    #One-digit prime number.
+prime_array = [2, 3, 5, 7]    #One-digit prime numbers.
 counter = 4
 num = 11
 x = 2
