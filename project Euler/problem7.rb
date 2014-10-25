@@ -17,7 +17,7 @@ while true
             prime_array << num
             num = num + 1
             counter = counter + 1
-            x = 2                #Reset x.
+            x = 2
         end
     end
     if counter == 10001 
