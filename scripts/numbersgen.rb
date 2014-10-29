@@ -110,7 +110,7 @@ def prime_number limit
                 if num == 2 
                     num = num + 1
                     break
-                else num = num + 2      #In case num != 2, which means num is a prime AND a odd number, we can skip the next number which is an even one.
+                else num = num + 2      #In case num != 2, which means num is a prime AND an odd number, we can skip the next number which is an even one.
                     break
                 end
             end
