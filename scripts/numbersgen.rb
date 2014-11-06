@@ -15,8 +15,11 @@ def ask_user
     print prompt
     while true
         limit = gets.chomp().to_i
-        if limit < 1
-            puts 'Invalid limit!'
+        if answer == '4' && limit <= 1
+            puts 'Invalid input!'
+            print prompt
+        elsif limit < 1
+            puts 'Invalid input!'
             print prompt
         else break
         end
