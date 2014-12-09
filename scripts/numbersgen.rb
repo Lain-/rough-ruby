@@ -18,7 +18,7 @@ def ask_user
         if answer == '4' && limit <= 1
             puts 'Invalid input!'
             print prompt
-        elsif limit < 1
+        elsif limit <= 0
             puts 'Invalid input!'
             print prompt
         else break
