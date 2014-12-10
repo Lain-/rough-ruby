@@ -20,4 +20,4 @@ until fib1 > 4000000 || fib2 > 4000000
     end
 end
 
-puts "The sum of all even Fibonacci numbers not greater than 4 million if #{sum}."
+puts "The sum of all even Fibonacci numbers not greater than 4 million is #{sum}."
