@@ -44,7 +44,6 @@ def prime_check(num)
             break
         else h = h + 1
         end
-        return puts "#{num} is prime."
     end
     if Math.sqrt(num) < h && num >= 2
         puts "#{num} is prime."
