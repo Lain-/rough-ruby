@@ -1,5 +1,6 @@
-puts 'Welcome to the Numbers Generator.'.center(50)
-puts 'Written in Ruby by Huynh Yen Loc.'.center(50)
+puts 'Welcome to the Numbers Generator.'.center(70)
+puts 'Written in Ruby by Huynh Yen Loc.'.center(70)
+puts 'WARNING: GENERATING VERY LARGE NUMBER EQUALS DEATH!'.center(70)
 puts
 
 def ask_user
@@ -132,9 +133,11 @@ def write_to_file(id, array, limit)
     print "Do you want to write all generated numbers to a text file? "
     answer = gets.chomp()
     if answer.upcase == 'YES' || answer.upcase == 'Y'
-        file = File.new("#{id}_number_sequence(max#{limit}).txt", "w")
+        print 'Enter the name of your file '
+        filename = gets.chomp()
+        file = File.new("#{filename}.txt", "w")
         file.write(array)
-        puts "All generated #{id} numbers were written to #{id}_number_sequence(max#{limit}).txt"
+        puts "All generated #{id} numbers were written to #{filename}.txt"
         file.close()
     end
 end
