@@ -7,11 +7,11 @@ sum = 0
 
 while true
     x = 2
-    if num > 2000000
+    if num > 2_000_000
         break
     end
     while true
-        prime_check = num % x 
+        prime_check = num % x
         if prime_check == 0 && num != 2
             num = num + 1
             break
@@ -19,7 +19,7 @@ while true
         x = x + 1
         if x > Math.sqrt(num) || num == 2
             prime_num << num
-            if num == 2 
+            if num == 2
                 num = num + 1
                 break
             else num = num + 2
